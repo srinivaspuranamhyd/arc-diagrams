@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-10T16:02:23.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88  Safari/537.36" etag="pIa1KmLcAYy3yJoEDUuL" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-10T16:03:34.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88  Safari/537.36" etag="Af8-Eddw0SrZXWdVUmQE" version="14.3.0" type="github">
   <diagram id="rQ7lzFE1rU9MFjIQwCvu" name="Page-1">
     <mxGraphModel dx="1718" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2j8U9glYbAVxh-7KGH8s-13" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_partition_4;" parent="1" vertex="1">
-          <mxGeometry x="387" y="197.5" width="78.5" height="77.5" as="geometry" />
+          <mxGeometry x="382" y="197.5" width="78.5" height="77.5" as="geometry" />
         </mxCell>
         <mxCell id="FsmlgOx-CCWtFadNLZ4H-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="143" width="140" height="60" as="geometry" />
@@ -53,7 +53,7 @@
           <mxGeometry x="250" y="103" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FsmlgOx-CCWtFadNLZ4H-5" value="Partitioner" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="406.25" y="353" width="40" height="20" as="geometry" />
+          <mxGeometry x="399.25" y="353" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FsmlgOx-CCWtFadNLZ4H-6" value="Kafka Topics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="500" y="103" width="180" height="20" as="geometry" />
@@ -85,7 +85,7 @@
         <mxCell id="FsmlgOx-CCWtFadNLZ4H-22" value="P2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="630" y="302" width="40" height="15.2" as="geometry" />
         </mxCell>
-        <mxCell id="FsmlgOx-CCWtFadNLZ4H-23" value="Key1" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="FsmlgOx-CCWtFadNLZ4H-16">
+        <mxCell id="FsmlgOx-CCWtFadNLZ4H-23" value="Key1" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2j8U9glYbAVxh-7KGH8s-13" target="FsmlgOx-CCWtFadNLZ4H-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="223" as="sourcePoint" />
             <mxPoint x="510" y="183" as="targetPoint" />
@@ -97,7 +97,7 @@
         </mxCell>
         <mxCell id="FsmlgOx-CCWtFadNLZ4H-25" value="Key2" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="FsmlgOx-CCWtFadNLZ4H-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="233" as="sourcePoint" />
+            <mxPoint x="460" y="230" as="sourcePoint" />
             <mxPoint x="510" y="183" as="targetPoint" />
             <Array as="points">
               <mxPoint x="490" y="233" />
