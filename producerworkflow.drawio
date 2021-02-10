@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-10T16:03:34.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88  Safari/537.36" etag="Af8-Eddw0SrZXWdVUmQE" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-10T16:04:14.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88  Safari/537.36" etag="yY-KANKdFb6VQdp6NKDl" version="14.3.0" type="github">
   <diagram id="rQ7lzFE1rU9MFjIQwCvu" name="Page-1">
     <mxGraphModel dx="1718" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -195,8 +195,8 @@
             <mxPoint x="-298" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FsmlgOx-CCWtFadNLZ4H-44" value="Strong Ordering with Key Serializer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-10" y="23" width="490" height="20" as="geometry" />
+        <mxCell id="FsmlgOx-CCWtFadNLZ4H-44" value="Strong &lt;font color=&quot;#ff3333&quot;&gt;Ordering&lt;/font&gt; with &lt;font color=&quot;#ff3333&quot;&gt;Key&lt;/font&gt; Serializer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-10" y="40" width="490" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
