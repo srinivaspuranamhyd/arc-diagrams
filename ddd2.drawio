@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-06T08:47:47.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150  Safari/537.36" etag="XLhFsJ9aDk-xxVLTh6Sb" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-06T08:55:54.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150  Safari/537.36" etag="hOyeau0CJSOFaMDUZqYp" version="14.4.4" type="github">
   <diagram id="r4k9YjdjaylWLoNKeNUF" name="Page-1">
     <mxGraphModel dx="2568" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1213,10 +1213,10 @@
         <mxCell id="x8yFt2Wua3zqLqM0o2eU-118" value="ProductLineItem&lt;br&gt;Added" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-890.25" y="769" width="110.5" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="x8yFt2Wua3zqLqM0o2eU-119" value="AccountDeleted" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="x8yFt2Wua3zqLqM0o2eU-119" value="ContractOrderEntry" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1038" y="800" width="119" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="x8yFt2Wua3zqLqM0o2eU-120" value="AccountAdded" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="x8yFt2Wua3zqLqM0o2eU-120" value="ContractCreated" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1038" y="769" width="119" height="20" as="geometry" />
         </mxCell>
         <mxCell id="x8yFt2Wua3zqLqM0o2eU-122" value="InvoiceGroup" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -1350,8 +1350,14 @@
         <mxCell id="xI-_J-oyyOmIZLtXHt4S-9" value="PBXInstance&lt;br&gt;Attached" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-1231" y="922" width="83" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="xI-_J-oyyOmIZLtXHt4S-14" value="Billing" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-1141" y="1007" width="83" height="27" as="geometry" />
+        <mxCell id="xI-_J-oyyOmIZLtXHt4S-14" value="BillingLocation&lt;br&gt;Assigned" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-1148" y="1007" width="91" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="xI-_J-oyyOmIZLtXHt4S-15" value="ContractDeclined" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1037" y="865" width="119" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xI-_J-oyyOmIZLtXHt4S-16" value="ContractConfirmed" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1037" y="832" width="119" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
