@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-07T14:42:47.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150  Safari/537.36" etag="QJGswEoOkLvdasEty2GY" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-07T14:51:17.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150  Safari/537.36" etag="MHQh4JyXTG_R1eJEeOIJ" version="14.4.4" type="github">
   <diagram id="r4k9YjdjaylWLoNKeNUF" name="Page-1">
-    <mxGraphModel dx="6149" dy="2833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3569" dy="1654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -680,18 +680,25 @@
         <mxCell id="yD45Ho3UM-dj7maDb05n-34" value="ProductActivation" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-1723.75" y="202" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OvihzZApE0SRIkXtEB55-510" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;" edge="1" parent="1" source="yD45Ho3UM-dj7maDb05n-35" target="yD45Ho3UM-dj7maDb05n-34">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OvihzZApE0SRIkXtEB55-510" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1766.75" y="331" as="sourcePoint" />
+            <mxPoint x="-1720" y="208" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1776" y="331" />
+              <mxPoint x="-1776" y="208" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="yD45Ho3UM-dj7maDb05n-35" value="Product Catalog&amp;nbsp;&lt;br&gt;Bounded Context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="-1858.5" y="149" width="169.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yD45Ho3UM-dj7maDb05n-36" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="yD45Ho3UM-dj7maDb05n-34" edge="1">
+        <mxCell id="yD45Ho3UM-dj7maDb05n-36" value="" style="endArrow=classic;html=1;fontSize=18;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1768.75" y="327" as="sourcePoint" />
-            <mxPoint x="-1768.75" y="245" as="targetPoint" />
+            <mxPoint x="-1724" y="220" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1769.75" y="217" />
+              <mxPoint x="-1769" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>
