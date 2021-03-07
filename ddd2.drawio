@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-07T11:07:09.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149  Safari/537.36" etag="e_qDTJemlUWPFxJzWXeo" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-07T11:44:41.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149  Safari/537.36" etag="1rg9OwBCnS4VpE98Gc_g" version="14.4.4" type="github">
   <diagram id="r4k9YjdjaylWLoNKeNUF" name="Page-1">
     <mxGraphModel dx="3418" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -26,23 +26,23 @@
           <mxGeometry x="-1317.25" y="279" width="102.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x8yFt2Wua3zqLqM0o2eU-77" value="DecisionMaker" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="-1071.5" y="183" width="120" height="30" as="geometry" />
+          <mxGeometry x="-1070" y="196" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x8yFt2Wua3zqLqM0o2eU-78" value="Currency" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-1310.5" y="209" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x8yFt2Wua3zqLqM0o2eU-79" value="PartnerContacts" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="-1092.25" y="132" width="120" height="30" as="geometry" />
+          <mxGeometry x="-1121" y="122" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x8yFt2Wua3zqLqM0o2eU-80" value="Account Bounded Context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="-1237" y="59" width="169.5" height="30" as="geometry" />
+          <mxGeometry x="-1237" y="56" width="169.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x8yFt2Wua3zqLqM0o2eU-81" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="x8yFt2Wua3zqLqM0o2eU-79" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1150.25" y="245" as="sourcePoint" />
             <mxPoint x="-1150.25" y="163" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1150.25" y="147" />
+              <mxPoint x="-1150" y="137" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -78,12 +78,12 @@
             <mxPoint x="-1140.25" y="251" as="sourcePoint" />
             <mxPoint x="-1089.25" y="192" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1122.25" y="201" />
+              <mxPoint x="-1122" y="213" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="x8yFt2Wua3zqLqM0o2eU-88" value="DecisionMakerAssigned" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="-1071.5" y="222" width="130.25" height="20" as="geometry" />
+          <mxGeometry x="-1071.5" y="232" width="130.25" height="20" as="geometry" />
         </mxCell>
         <mxCell id="x8yFt2Wua3zqLqM0o2eU-89" value="Currency &lt;br&gt;Assinged" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-1394.25" y="212" width="80" height="27" as="geometry" />
@@ -153,6 +153,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="qQy5YdBlxpbomrs5Gsvu-197" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x8yFt2Wua3zqLqM0o2eU-74" target="qQy5YdBlxpbomrs5Gsvu-195">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1140" y="176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="x8yFt2Wua3zqLqM0o2eU-74" value="Account" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-1212.25" y="243" width="120" height="30" as="geometry" />
         </mxCell>
@@ -160,7 +167,7 @@
           <mxGeometry x="-1317.25" y="132" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="x8yFt2Wua3zqLqM0o2eU-102" value="PartnerContact&lt;br&gt;Added" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="-1097.25" y="101" width="120" height="26" as="geometry" />
+          <mxGeometry x="-1120" y="94" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="x8yFt2Wua3zqLqM0o2eU-103" value="Address&lt;br&gt;Verified" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-1213.25" y="414" width="70" height="26" as="geometry" />
@@ -1186,22 +1193,10 @@
           <mxGeometry x="-670" y="766" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-5" value="Locations" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-425.75" y="686.5" width="100.26" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qQy5YdBlxpbomrs5Gsvu-7" value="Customers" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-429" y="641.5" width="120" height="30" as="geometry" />
+          <mxGeometry x="-425.75" y="689.5" width="100.26" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-8" value="Partner Bounded&lt;br&gt;Context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-567.51" y="582" width="169.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qQy5YdBlxpbomrs5Gsvu-9" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" target="qQy5YdBlxpbomrs5Gsvu-7" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-487" y="754.5" as="sourcePoint" />
-            <mxPoint x="-487" y="672.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-487" y="656.5" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-12" value="" style="endArrow=classic;html=1;fontSize=18;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1217,12 +1212,12 @@
             <mxPoint x="-477" y="760.5" as="sourcePoint" />
             <mxPoint x="-426" y="701.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-459" y="703.5" />
+              <mxPoint x="-459" y="707" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-14" value="Locations&lt;br&gt;Assigned" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-321" y="686.5" width="101" height="29.5" as="geometry" />
+          <mxGeometry x="-321" y="690.5" width="91" height="29.5" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-17" value="PartnerAssigned" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-546" y="797.5" width="119" height="20" as="geometry" />
@@ -1243,21 +1238,22 @@
           <mxGeometry x="-774" y="769" width="100" height="27" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-21" value="Users" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-655" y="634.5" width="120" height="30" as="geometry" />
+          <mxGeometry x="-544" y="654" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qQy5YdBlxpbomrs5Gsvu-22" value="" style="endArrow=classic;html=1;fontSize=18;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.407;exitY=-0.037;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="qQy5YdBlxpbomrs5Gsvu-21" parent="1">
+        <mxCell id="qQy5YdBlxpbomrs5Gsvu-22" value="" style="endArrow=classic;html=1;fontSize=18;exitX=0.407;exitY=-0.037;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-500.15999999999985" y="753.3899999999999" as="sourcePoint" />
-            <mxPoint x="-419" y="661.5" as="targetPoint" />
+            <mxPoint x="-486.15999999999985" y="753.3899999999999" as="sourcePoint" />
+            <mxPoint x="-486" y="680" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-500" y="649.5" />
+              <mxPoint x="-486" y="690" />
+              <mxPoint x="-486" y="700" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="qQy5YdBlxpbomrs5Gsvu-28" target="qQy5YdBlxpbomrs5Gsvu-42" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-520" y="700" />
+              <mxPoint x="-520" y="705" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1304,11 +1300,8 @@
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-28" value="Partner" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-549" y="752.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qQy5YdBlxpbomrs5Gsvu-29" value="UserAdded" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-641" y="604" width="92" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="qQy5YdBlxpbomrs5Gsvu-30" value="PartnerAssignedto&lt;br&gt;Customer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="610.5" width="110" height="26" as="geometry" />
+        <mxCell id="qQy5YdBlxpbomrs5Gsvu-29" value="NewUserAdded" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-538" y="624" width="109" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-31" value="InvoiceGroup&lt;br&gt;Selected" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-705.01" y="962.5" width="115.01" height="27.5" as="geometry" />
@@ -1326,10 +1319,10 @@
           <mxGeometry x="-545" y="829.5" width="119" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-42" value="PartnerAccount" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-633" y="684.5" width="94" height="30" as="geometry" />
+          <mxGeometry x="-633" y="689.5" width="94" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qQy5YdBlxpbomrs5Gsvu-43" value="Account&lt;br&gt;Activated" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-751" y="687.5" width="114" height="27" as="geometry" />
+        <mxCell id="qQy5YdBlxpbomrs5Gsvu-43" value="PartnerAccount&lt;br&gt;Activated" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-751" y="692.5" width="114" height="27" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-44" value="ServicePricing" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-708.99" y="853.5" width="120" height="30" as="geometry" />
@@ -1418,12 +1411,12 @@
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-145" value="Customer Bounded&lt;br&gt;Context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-553.13" y="1087" width="169.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qQy5YdBlxpbomrs5Gsvu-146" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" target="qQy5YdBlxpbomrs5Gsvu-144" parent="1">
+        <mxCell id="qQy5YdBlxpbomrs5Gsvu-146" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.613;exitY=-0.117;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="qQy5YdBlxpbomrs5Gsvu-144" parent="1" source="qQy5YdBlxpbomrs5Gsvu-163">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-472.62" y="1259.5" as="sourcePoint" />
             <mxPoint x="-472.62" y="1177.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-472.62" y="1161.5" />
+              <mxPoint x="-460" y="1162" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1452,14 +1445,14 @@
           <mxGeometry x="-531.62" y="1302.5" width="119" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-151" value="InvoiceGroup" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-692.87" y="1432" width="120" height="30" as="geometry" />
+          <mxGeometry x="-678" y="1428" width="113.06" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qQy5YdBlxpbomrs5Gsvu-152" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="qQy5YdBlxpbomrs5Gsvu-152" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-545.62" y="1278" as="sourcePoint" />
-            <mxPoint x="-575.87" y="1447" as="targetPoint" />
+            <mxPoint x="-544.62" y="1278" as="sourcePoint" />
+            <mxPoint x="-569" y="1440" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-545.62" y="1447" />
+              <mxPoint x="-545" y="1440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1467,7 +1460,7 @@
           <mxGeometry x="-759.62" y="1274" width="100" height="27" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-154" value="Users" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-640.62" y="1139.5" width="120" height="30" as="geometry" />
+          <mxGeometry x="-610" y="1141" width="103.38" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-155" value="" style="endArrow=classic;html=1;fontSize=18;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.407;exitY=-0.037;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="qQy5YdBlxpbomrs5Gsvu-154" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1517,19 +1510,19 @@
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-161" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="qQy5YdBlxpbomrs5Gsvu-163" target="qQy5YdBlxpbomrs5Gsvu-173" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-545.62" y="1273" />
-              <mxPoint x="-545.62" y="1374" />
+              <mxPoint x="-546" y="1273" />
+              <mxPoint x="-546" y="1372" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-162" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="qQy5YdBlxpbomrs5Gsvu-163" target="qQy5YdBlxpbomrs5Gsvu-188" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qQy5YdBlxpbomrs5Gsvu-163" value="Partner" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="qQy5YdBlxpbomrs5Gsvu-163" value="Customer" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-534.62" y="1257.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qQy5YdBlxpbomrs5Gsvu-164" value="UserAdded" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-626.62" y="1109" width="92" height="26" as="geometry" />
+        <mxCell id="qQy5YdBlxpbomrs5Gsvu-164" value="NewUser&lt;br&gt;Added" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-613.74" y="1109" width="104.12" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-165" value="PartnerAssigned" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-415.62" y="1115.5" width="110" height="26" as="geometry" />
@@ -1555,11 +1548,11 @@
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-172" value="Account&lt;br&gt;Activated" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-736.62" y="1192.5" width="114" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="qQy5YdBlxpbomrs5Gsvu-173" value="ServicePricing" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-694.61" y="1358.5" width="120" height="30" as="geometry" />
+        <mxCell id="qQy5YdBlxpbomrs5Gsvu-173" value="PricingPlan" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-680.36" y="1357" width="114.61" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qQy5YdBlxpbomrs5Gsvu-174" value="Pricing&lt;br&gt;Viewed" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-765.24" y="1362" width="66" height="28" as="geometry" />
+        <mxCell id="qQy5YdBlxpbomrs5Gsvu-174" value="PricingPlan&lt;br&gt;Viewed" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="1362" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-175" value="BillingActivation" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-521.1199999999999" y="1417" width="99" height="26" as="geometry" />
@@ -1598,13 +1591,25 @@
           <mxGeometry x="-363.87" y="1485" width="91.5" height="29.5" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-187" value="CurrentDate&lt;br&gt;PricingAssigned" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-691.63" y="1395" width="114" height="28" as="geometry" />
+          <mxGeometry x="-678.75" y="1390" width="114" height="28" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-188" value="SupportRequests" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-519.3699999999999" y="1484" width="99" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-189" value="PartnerSupportReq&lt;br&gt;Raised" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-523.62" y="1517" width="118" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="qQy5YdBlxpbomrs5Gsvu-192" value="UserDeleted" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-662.13" y="655" width="109" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qQy5YdBlxpbomrs5Gsvu-194" value="User&lt;br&gt;Deleted" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-686.61" y="1144" width="71.61" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qQy5YdBlxpbomrs5Gsvu-195" value="StaffContacts" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1121" y="161" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qQy5YdBlxpbomrs5Gsvu-196" value="StaffContact&lt;br&gt;Added" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-1010" y="164.5" width="90" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
