@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T07:56:50.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150  Safari/537.36" etag="etP65WOaJQ74r_mSn6wo" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-08T08:08:55.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150  Safari/537.36" etag="SDwdFe7XsgFeDxTxEr4_" version="14.4.4" type="github">
   <diagram id="r4k9YjdjaylWLoNKeNUF" name="Page-1">
     <mxGraphModel dx="3418" dy="1550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1193,8 +1193,8 @@
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-168" value="Invoices" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-337.68" y="1405" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qQy5YdBlxpbomrs5Gsvu-169" value="PartnerSuportRequest" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-502.68" y="1529.5" width="125" height="20" as="geometry" />
+        <mxCell id="qQy5YdBlxpbomrs5Gsvu-169" value="CustomerAccountCreated" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-512.68" y="1530.5" width="137.68" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qQy5YdBlxpbomrs5Gsvu-170" value="SwitchToCustomer" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-502.68" y="1496.5" width="119" height="20" as="geometry" />
@@ -1624,7 +1624,7 @@
         <mxCell id="OvihzZApE0SRIkXtEB55-125" value="Partner" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-366.6799999999999" y="1811.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OvihzZApE0SRIkXtEB55-126" value="Numbers Bounded&lt;br&gt;Context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=18;" parent="1" vertex="1">
+        <mxCell id="OvihzZApE0SRIkXtEB55-126" value="Usage Mediation&lt;br&gt;Bounded Context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="-510.19000000000005" y="1737" width="169.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OvihzZApE0SRIkXtEB55-127" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="OvihzZApE0SRIkXtEB55-125" edge="1">
@@ -2349,7 +2349,7 @@
           <mxGeometry x="-972.5000000000003" y="1201" width="91" height="29.5" as="geometry" />
         </mxCell>
         <mxCell id="OvihzZApE0SRIkXtEB55-458" value="PartnerAssigned" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-1197.5" y="1308" width="119" height="20" as="geometry" />
+          <mxGeometry x="-1197.5" y="1306" width="119" height="20" as="geometry" />
         </mxCell>
         <mxCell id="OvihzZApE0SRIkXtEB55-459" value="InvoiceGroup" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-1358.75" y="1437.5" width="120" height="30" as="geometry" />
@@ -2420,8 +2420,22 @@
             <mxPoint x="-1085.5" y="1278" as="sourcePoint" />
             <mxPoint x="-942.2500000000003" y="1455.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1056.5000000000005" y="1278.5" />
-              <mxPoint x="-1056.5000000000005" y="1455.5" />
+              <mxPoint x="-1056" y="1278" />
+              <mxPoint x="-1056" y="1418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uccApxMCOgp5sXaxDuvG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.365;entryY=0.033;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="OvihzZApE0SRIkXtEB55-470" target="uccApxMCOgp5sXaxDuvG-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1205" y="1278" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uccApxMCOgp5sXaxDuvG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OvihzZApE0SRIkXtEB55-470" target="uccApxMCOgp5sXaxDuvG-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1060" y="1278" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2432,7 +2446,7 @@
           <mxGeometry x="-1189.5" y="1134.5" width="109" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OvihzZApE0SRIkXtEB55-472" value="InvoiceGroup&lt;br&gt;Selected" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="-1354.5100000000002" y="1473" width="115.01" height="27.5" as="geometry" />
+          <mxGeometry x="-1354.51" y="1473" width="104.51" height="27.5" as="geometry" />
         </mxCell>
         <mxCell id="OvihzZApE0SRIkXtEB55-473" value="ContractUpdated" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-1325.5" y="1312" width="108" height="27" as="geometry" />
@@ -2441,10 +2455,10 @@
           <mxGeometry x="-1031.5000000000005" y="1248.5" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OvihzZApE0SRIkXtEB55-475" value="PartnerSuportRequest" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-1196.5" y="1373" width="125" height="20" as="geometry" />
+          <mxGeometry x="-1196.5" y="1367" width="125" height="20" as="geometry" />
         </mxCell>
         <mxCell id="OvihzZApE0SRIkXtEB55-476" value="SwitchToCustomer" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-1196.5" y="1340" width="119" height="20" as="geometry" />
+          <mxGeometry x="-1196.5" y="1338" width="119" height="20" as="geometry" />
         </mxCell>
         <mxCell id="OvihzZApE0SRIkXtEB55-477" value="PartnerAccount" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-1284.5" y="1200" width="94" height="30" as="geometry" />
@@ -2483,13 +2497,13 @@
           <mxGeometry x="-929.3700000000003" y="1249" width="78.87" height="29.5" as="geometry" />
         </mxCell>
         <mxCell id="OvihzZApE0SRIkXtEB55-489" value="CurrentDate&lt;br&gt;PricingAssigned" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="-1357.5100000000002" y="1400.5" width="114" height="28" as="geometry" />
+          <mxGeometry x="-1357.51" y="1400.5" width="107.51" height="28" as="geometry" />
         </mxCell>
         <mxCell id="OvihzZApE0SRIkXtEB55-490" value="SupportRequests" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="-1036.25" y="1442.5" width="99" height="26" as="geometry" />
+          <mxGeometry x="-1022.62" y="1404.5" width="99" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OvihzZApE0SRIkXtEB55-491" value="PartnerSupportReq&lt;br&gt;Raised" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="-1045.7500000000005" y="1476.5" width="118" height="24" as="geometry" />
+          <mxGeometry x="-1025.6200000000003" y="1436" width="118" height="24" as="geometry" />
         </mxCell>
         <mxCell id="OvihzZApE0SRIkXtEB55-492" value="UserDeleted" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-1313.63" y="1165.5" width="109" height="26" as="geometry" />
@@ -2523,6 +2537,21 @@
         </mxCell>
         <mxCell id="uccApxMCOgp5sXaxDuvG-6" value="CustomerMapped" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-653.1199999999997" y="614" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uccApxMCOgp5sXaxDuvG-12" value="Customer(Self)" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1240.4900000000002" y="1489" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uccApxMCOgp5sXaxDuvG-13" value="Customers" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1119.5600000000004" y="1488" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uccApxMCOgp5sXaxDuvG-16" value="PartnerSelfActivated" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-1254.43" y="1524" width="118" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uccApxMCOgp5sXaxDuvG-17" value="CustomerAssigned" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-1119.56" y="1523" width="118" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uccApxMCOgp5sXaxDuvG-18" value="PartnerAccountCreated" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;dashed=1;strokeWidth=2;fontSize=10;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1205.0299999999997" y="1395.5" width="137.68" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
